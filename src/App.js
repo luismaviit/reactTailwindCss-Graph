@@ -1,10 +1,19 @@
 import React from "react";
-import HelloWorld from "./components/HelloWorld";
+import  Albums from "./components/Albums";
 
 function App() {
   return (
     <div className="App">
-      <HelloWorld></HelloWorld>
+      <div className="container mx-auto py-6 pb-4">
+        <h2 className="text-xl text-blue-800 font-bold"> Albums</h2>
+          <Albums>
+
+          </Albums>
+        
+
+      </div>
+
+     
     </div>
   );
 }
